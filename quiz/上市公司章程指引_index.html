@@ -1,0 +1,567 @@
+﻿
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="gbk" />
+<meta name="robots" content="all" />
+<meta name="author" content="w3school.com.cn" />
+<link rel="stylesheet" type="text/css" href="c5.css" />
+<title>HTML 教程</title>
+
+<style type="text/css">
+#box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25,#box26,#box27,#box28,#box29,#box30,#box31,#box32,#box33,#box34,#box35,#box36,#box37,#box38,#box39,#box40,#box41,#box42,#box43,#box44,#box45,#box46,#box47,#box48,#box49,#box50,#box51,#box52,#box53,#box54,#box55,#box56,#box57,#box58,#box59,#box60,#box61,#box62,#box63,#box64,#box65,#box66,#box67,#box68,#box69,#box70,#box71,#box72,#box73,#box74,#box75,#box76,#box77,#box78,#box79,#box80,#box81,#box82,#box83,#box84,#box85,#box86,#box87,#box88,#box89,#box90,#box91,#box92,#box93,#box94,#box95,#box96,#box97,#box98,#box99,#box100{padding:10px;border:1px dotted black;} 
+</style>
+
+<script type="text/javascript">
+//===========================点击展开关闭效果====================================
+function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){
+var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;
+var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;
+var openTip = oOpenTip || "";
+var shutTip = oShutTip || "";
+if(targetObj.style.display!="none"){
+   if(shutAble) return;
+   targetObj.style.display="none";
+   if(openTip  &&  shutTip){
+    sourceObj.innerHTML = shutTip; 
+   }
+} else {
+   targetObj.style.display="block";
+   if(openTip  &&  shutTip){
+    sourceObj.innerHTML = openTip; 
+   }
+}
+}
+</script>
+
+</head>
+<body class="html">
+<div id="wrapper">
+<div id="header">
+</div>
+<div id="navsecond">
+<div id="course"><h2>IPO辅导考试</h2>
+
+<ul>
+<li><a href="index.html" title="公司法50">公司法50</a></li>
+<!-- <li><a href="#GSF_DanX" title="公司法单选">公司法单选</a></li>
+<li><a href="#GSF_DuoX" title="公司法多选">公司法多选</a></li>
+<li><a href="#GSF_DuiC" title="公司法对错">公司法对错</a></li> -->
+</ul>
+<ul>
+<li><a href="ZhengQuanFa_index.html" title="证券法试题50">证券法试题50</a></li>
+<!-- <li><a href="#ZQFX" title="证券发行">_证券发行</a></li>
+<li><a href="#ZQJY" title="证券交易">_证券交易</a></li>
+<li><a href="#SSGSSG" title="上市公司收购">_上市公司收购</a></li>
+<li><a href="#ZQJDGLJG" title="证券监督管理机构">_证券监督管理机构</a></li>
+<li><a href="#FLZR" title="法律责任">_法律责任</a></li> -->
+</ul>
+<ul>
+<li><a href="提高上市公司质量的意见_index.html" title="提高上市公司质量">提高上市公司质量</a></li>
+<!-- <li><a href="#ZSD8" title="知识点8">_知识点8</a></li> 
+<li><a href="#ZSD9" title="知识点9">_知识点9</a></li>
+<li><a href="#ZSD10" title="知识点10">_知识点10</a></li>
+<li><a href="#ZSD11" title="知识点11">_知识点11</a></li>
+<li><a href="#ZSD12" title="知识点12">_知识点12</a></li>
+<li><a href="#ZSD13" title="知识点13">_知识点13</a></li> -->
+</ul>
+<ul>
+<li class="currentLink"><a href="上市公司章程指引_index.html" title="上市公司章程指引">上市公司章程指引</a></li>
+<li><a href="#GuFen" title="股份">_股份</a></li>
+<li><a href="#GuDongDaHui" title="股东和股东大会">_股东和股东大会</a></li>
+<li><a href="#DongShiHui" title="董事会">_董事会</a></li>
+<li><a href="#GaoGuan" title="高管">_高管</a></li>
+<li><a href="#JianShiHui" title="监事会">_监事会</a></li>
+<li><a href="#CaiWu" title="财务">_财务</a></li>
+<li><a href="#ZhiLiZhunZe" title="治理准则">_治理准则</a></li>
+</ul>
+<ul>
+<li><a href="信息披露_index.html" title="信息披露">信息披露</a></li>
+<!-- <li><a href="#ZongZe" title="总则">_总则</a></li> -->
+</ul>
+<ul>
+<li><a href="对外担保_index.html" title="对外担保">对外担保</a></li>
+
+</ul>
+<ul>
+<li><a href="证券司法_index.html" title="证券司法">证券司法</a></li>
+</ul>
+</div>
+</div>
+<div id="maincontent">
+
+<h1 style="color:blue;">
+《上市公司章程指引》试题43</h1>
+<h2><a name="GuFen">
+第三章《股份》（共6题，2道单选、1道多选、3道判断）</a></h2>
+<h2>
+一、单选题</h2>
+<h3>
+1、上市公司董事、监事、高级管理人员在任职期间每年转让的股份不得超过其所持有本公司同一种类股份总数的（）</h3>
+<p>
+A、5%<br>
+B、10%<br>
+C、20%<br>
+D、25%</p><br>
+<p><a href="###" onclick="openShutManager(this,'box1',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box1" style="display:none">
+答案：D</p><br>
+<h3>
+2、上市公司董事、监事、高级管理人员所持本公司股份自公司股票上市交易之日起（）内不得转让。上述人员离职后（）内，不得转让其所持有的本公司股份。</h3>
+<p>
+A、1年，半年<br>
+B、半年，半年<br>
+C、1年，1年<br>
+D、半年，1年</p><br>
+<p><a href="###" onclick="openShutManager(this,'box2',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box2" style="display:none">
+答案：A</p><br>
+<h2>
+二、多选题</h2>
+<h3>
+1、上市公司在下列情况下，可以依照法律、行政法规、部门规章和本章程的规定，收购本公司的股份（）</h3>
+<p>
+A、将股份奖励给本公司职工<br>
+B、与持有本公司股票的其他公司合并<br>
+C、股东因对股东大会作出的公司合并、分立决议持异议，要求公司收购其股份的<br>
+D、减少公司注册资本</p><br>
+<p><a href="###" onclick="openShutManager(this,'box3',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box3" style="display:none">
+答案：ABCD</p><br>
+<h2>
+三、判断题</h2>
+<h3>
+1、同次发行的同种类股票，每股的发行条件和价格应当相同；任何单位或者个人所认购的股份，每股应当支付相同价额。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box4',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box4" style="display:none">
+答案：正确</p>
+<h3>
+2、公司不得以赠与、垫资、担保、补偿或贷款等形式，对购买或者拟购买公司股份的人提供任何资助，但可以通过公司的子公司（包括公司的附属企业）来提供。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box5',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box5" style="display:none">
+答案：错误</p>
+<h3>
+3、上市公司收购本公司股份，可以选择的方式有证券交易所集中竞价交易方式和要约方式。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box6',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box6" style="display:none">
+答案：正确</p>
+<h2><a name="GuDongDaHui">
+第四章《股东和股东大会》（共20题，10道单选、5道多选、5道判断）</a></h2>
+<h2>
+一、单选题</h2>
+<h3>
+1、以下哪种行为不是上市公司股东必须承担的义务（）</h3>
+<p>
+A、不得滥用股东权利损害公司或者其他股东的利益<br>
+B、依其所认购的股份和入股方式缴纳股金<br>
+C、除法律、法规规定的情形外，不得退股<br>
+D、滥用股东权利，维护大股东利益</p><br>
+<p><a href="###" onclick="openShutManager(this,'box7',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box7" style="display:none">
+答案：D</p><br>
+<h3>
+2、依照规定，上市公司年度股东大会每年召开（）次</h3>
+<p>
+A、1  B、2   C、3   D、4</p>
+<p><a href="###" onclick="openShutManager(this,'box8',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box8" style="display:none">
+答案：A</p><br>
+<h3>
+3、董事会同意召开临时股东大会的，应当在作出董事会决议后的（）日内发出召开股东大会的通知。</h3>
+<p>
+A、2  B、5   C、10   D、15</p>
+<p><a href="###" onclick="openShutManager(this,'box9',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box9" style="display:none">
+答案：B</p>
+<h3>
+4、上市公司召开股东大会，有权向公司提出提案的是（）</h3>
+<p>
+A、连续90日以上单独或者合计持有公司5%以上股份的股东<br> 
+B、单独或者合计持有公司5%以上股份的股东<br>  
+C、连续90日以上单独或者合计持有公司3%以上股份的股东<br>
+D、单独或者合计持有公司3%以上股份的股东</p><br>
+<p><a href="###" onclick="openShutManager(this,'box10',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box10" style="display:none">
+答案：D</p><br>
+<h3>
+5、 根据《上市公司章程指引》规定，股东大会召开时，（）应当列席会议。</h3>
+<p>
+A、上市公司全体董事<br>
+B、经理和其他高级管理人员<br>
+C、上市公司全体监事<br>
+D、上市公司董事会秘书</p><br>
+<p><a href="###" onclick="openShutManager(this,'box11',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box11" style="display:none">
+答案：B</p><br>
+<h3>
+6、股东大会作出普通决议，应当由出席股东大会的股东（包括股东代理人）所持表决权的（）以上通过。</h3>
+<p>
+A、1/2<br>  
+B、2/3<br>   
+C、1/3<br> 
+D、3/4</p><br>
+<p><a href="###" onclick="openShutManager(this,'box12',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box12" style="display:none">
+答案：A</p><br>
+<h3>
+7、股东大会作出特别决议，应当由出席股东大会的股东（包括股东代理人）所持表决权的（）以上通过。</h3>
+<p>
+A、1/2<br>  
+B、2/3<br>   
+C、1/3<br> 
+D、3/4</p><br>
+<p><a href="###" onclick="openShutManager(this,'box13',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box13" style="display:none">
+答案：B</p><br>
+<h3>
+8、以下不属于上市公司股东享有的权利是（）</h3>
+<p>
+A、获得股利和其他形式的利益分配<br>
+B、对公司的经营进行监督，提出建议或者质询<br>
+C、查阅和复制公司章程、股东名册、公司债券存根、股东大会会议记录、董事会会议决议、监事会会议决议、财务会计报告<br>
+D、对股东大会作出的公司合并、分立决议持异议的股东，要求公司收购其股份</p><br>
+<p><a href="###" onclick="openShutManager(this,'box14',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box14" style="display:none">
+答案：C</p><br>
+<h3>
+9、下列关于上市公司股东大会的主要权利描述不正确的有（）</h3>
+<p>
+A、修改本章程<br>
+B、对发行公司债券作出决议<br>
+C、审议公司在一年内购买、出售重大资产超过公司最近一期经审计总资产50%的事项<br>
+D、审议股权激励计划</p><br>
+<p><a href="###" onclick="openShutManager(this,'box15',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box15" style="display:none">
+答案：C</p><br>
+<h3>
+10、以下出席股东大会的人员不需要在会议记录上签字的是（）。</h3>
+<p>
+A、董事<br>  
+B、监事<br>   
+C、董事会秘书<br>   
+D、股东</p><br>
+<p><a href="###" onclick="openShutManager(this,'box16',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box16" style="display:none">
+答案：D</p><br>
+<h2>
+二、多选题</h2>
+<h3>
+2、上市公司下列对外担保行为，须经股东大会审议通过（）</h3>
+<p>
+A、本公司及本公司控股子公司的对外担保总额，达到或超过最近一期经审计净资产的50%以后提供的任何担保<br>
+B、公司的对外担保总额，达到或超过最近一期经审计净资产的30%以后提供的任何担保<br>
+C、为资产负债率超过70%的担保对象提供的担保<br>
+D、单笔担保额超过最近一期经审计净资产30%的担保</p><br>
+<p><a href="###" onclick="openShutManager(this,'box17',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box17" style="display:none">
+答案：AC</p><br>
+<h3>
+3、有下列情形之一的，公司在事实发生之日起2个月以内召开临时股东大会（）</h3>
+<p>
+A、公司未弥补的亏损达实收股本总额1/3时<br>
+B、董事人数不足《公司法》规定人数或者本章程所定人数的2/3时<br>
+C、单独或者合计持有公司5%以上股份的股东请求时<br>
+D、监事会主席提议召开时</p><br>
+<p><a href="###" onclick="openShutManager(this,'box18',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box18" style="display:none">
+答案：AB</p><br>
+<h3>
+4、股东大会的通知包括以下内容（）</h3>
+<p>
+A、会议的时间、地点和会议期限<br>  
+B、提交会议审议的事项和提案<br>   
+C、有权出席股东大会股东的股权登记日<br>  
+D、会务常设联系人姓名，电话号码</p><br>
+<p><a href="###" onclick="openShutManager(this,'box19',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box19" style="display:none">
+答案：ABCD</p><br>
+<h3>
+5、下列事项由股东大会以特别决议通过（）</h3>
+<p>
+A、公司的分立、合并、解散和清算<br> 
+B、公司增加或者减少注册资本<br>  
+C、公司总经理进行更换<br>
+D、股权激励计划</p><br>
+<p><a href="###" onclick="openShutManager(this,'box20',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box20" style="display:none">
+答案：ABD</p><br>
+<h2>
+三、判断题</h2>
+<h3>
+1、上市公司股东大会、董事会决议内容违反法律、行政法规的，股东有权请求人民法院认定无效。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box21',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box21" style="display:none">
+答案：正确</p>
+<h3>
+2、上市公司股东大会、董事会的会议召集程序、表决方式违反法律、行政法规或者本章程，或者决议内容违反本章程的，股东有权请求人民法院认定无效。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box22',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box22" style="display:none">
+答案：错误</p>
+<h3>
+3、董事会不同意召开临时股东大会，或者在收到提案后10日内未作出反馈的，视为董事会不能履行或者不履行召集股东大会会议职责，监事会可以自行召集和主持。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box23',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box23" style="display:none">
+答案：正确</p>
+<h3>
+4、股东可以亲自出席股东大会，也可以委托代理人代为出席和表决。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box24',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box24" style="display:none">
+答案：正确</p>
+<h3>
+5、股东大会审议有关关联交易事项时，关联股东不应当参与投票表决，其所代表的有表决权的股份数不计入有效表决总数（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box25',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box25" style="display:none">
+答案：正确</p>
+<h2><a name=DongShiHui>
+第五章《董事会》（共7题，2道单选、2道多选、3道判断）</a></h2>
+<h2>
+一、单选题</h2>
+<h3>
+1、董事连续（）次未能亲自出席，也不委托其他董事出席董事会会议，视为不能履行职责，董事会应当建议股东大会予以撤换。</h3>
+A、2<br>  
+B、3<br>   
+C、4<br> 
+D、5<br>
+<p><a href="###" onclick="openShutManager(this,'box26',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box26" style="display:none">
+答案：A</p><br>
+<h3>
+2、下列关于董事会会议每年召开次数的说法正确的是（）</h3>
+<p>
+A、每年至少召开一次<br>
+B、每年至少召开两次<br>   
+C、至少每6个月召开一次<br> 
+D、每年至少召开四次</p><br>
+<p><a href="###" onclick="openShutManager(this,'box27',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box27" style="display:none">
+答案：B</p><br>
+<h2>
+二、多选题</h2>
+<h3>
+1、上市公司董事会的主要权利有（）</h3>
+<p>
+A、决定公司的经营方针和投资计划<br>
+B、制订公司的利润分配方案和弥补亏损方案<br>
+C、决定公司内部管理机构的设置<br>
+D、根据经理的提名，聘任或者解聘公司副经理、财务负责人等高级管理人员，并决定其报酬事项和奖惩事项</p><br>
+<p><a href="###" onclick="openShutManager(this,'box28',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box28" style="display:none">
+答案：BCD</p><br>
+<h3>
+2、以下可以提议召开董事会临时会议的是（）</h3>
+<p>
+A、董事长<br>
+B、监事会<br>   
+C、1/3以上董事<br> 
+D、代表1/10以上表决权的股东</p><br>
+<p><a href="###" onclick="openShutManager(this,'box29',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box29" style="display:none">
+答案：BCD</p><br>
+<h2>
+三、判断题</h2>
+<h3>
+1、经股东大会或董事会同意，董事可以将公司资金借贷给他人或者以公司财产为他人提供担保（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box30',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box30" style="display:none">
+答案：正确</p>
+<h3>
+2、经股东大会或董事会同意，董事可以自营或者为他人经营与本公司同类的业务（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box31',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box31" style="display:none">
+答案：错误</p>
+<h3>
+3、董事会会议，应由董事本人出席，且不得委托其他董事代为出席。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box32',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box32" style="display:none">
+答案：错误</p>
+<h2><a name="GaoGuan">
+第六章《经理及其他高级管理人员》（共3题，1道单选、2道多选、0道判断）</a></h2>
+<h2>
+一、单选题</h2>
+<h3>
+1、以下不属于经理的职权的是（）</h3>
+<p>
+A、组织实施公司年度经营计划和投资方案<br>
+B、拟订公司的基本管理制度<br>   
+C、聘任或者解聘公司副经理、财务负责人<br> 
+D、拟订公司内部管理机构设置方案</p><br>
+<p><a href="###" onclick="openShutManager(this,'box33',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box33" style="display:none">
+答案：C</p><br>
+<h2>
+二、多选题</h2>
+<h3>
+1、有下列情形之一的，不能担任公司的高管（）</h3>
+<p>
+A、无民事行为能力或者限制民事行为能力<br>
+B、因贪污、贿赂、侵占财产、挪用财产或者破坏社会主义市场经济秩序，被判处刑罚，执行期满未逾5年，或者因犯罪被剥夺政治权利，执行期满未逾5年<br>   
+C、担任破产清算的公司、企业的董事或者厂长、经理，对该公司、企业的破产负有个人责任的，自该公司、企业破产清算完结之日起未逾3年<br> 
+D、被中国证监会处以证券市场禁入处罚，期限未满的</p><br>
+<p><a href="###" onclick="openShutManager(this,'box34',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box34" style="display:none">
+答案：ABCD</p><br>
+<h3>
+2、以下属于董事会秘书的职权的是（）</h3>
+<p>
+A、负责公司股东大会和董事会会议的筹备<br>
+B、拟订公司的基本管理制度<br>   
+C、负责公司股东资料管理<br> 
+D、负责办理信息披露事务</p><br>
+<p><a href="###" onclick="openShutManager(this,'box35',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box35" style="display:none">
+答案：ACD</p><br>
+<h2><a name=JianShiHui>
+第七章《监事会》（共3题，2道单选、1道多选、0道判断）</a></h2>
+<h2>
+一、单选题</h2>
+<h3>
+1、监事会成员不得少于（）人</h3>
+<p>
+A、2<br>
+B、3<br>   
+C、5<br> 
+D、1</p><br>
+<p><a href="###" onclick="openShutManager(this,'box36',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box36" style="display:none">
+答案：B</p><br>
+<h3>
+2、下列关于监事会会议每年召开次数的说法正确的是（）</h3>
+<p>
+A、每年至少召开一次<br>
+B、每年至少召开两次<br>   
+C、至少每6个月召开一次<br> 
+D、每年至少召开四次</p><br>
+<p><a href="###" onclick="openShutManager(this,'box37',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box37" style="display:none">
+答案：C</p><br>
+<h2>
+二、多选题</h2>
+<h3>
+1、监事会可以行使的职权有（）</h3>
+<p>
+A、检查公司财务<br>
+B、对董事会编制的公司定期报告进行审核并提出书面审核意见<br>   
+C、对违反法律、行政法规、本章程或者股东大会决议的董事、高级管理人员提出罢免的建议<br>
+D、向股东大会提出提案</p><br>
+<p><a href="###" onclick="openShutManager(this,'box38',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box38" style="display:none">
+答案：ABCD</p><br>
+<h2><a name="CaiWu">
+第八章《财务会计制度、利润分配和审计》（共4题，2道单选、1道多选、1道判断）</a></h2>
+<h2>
+一、单选题<h2>
+<h3>
+1、公司分配当年税后利润时，应当提取利润的（）列入公司法定公积金。公司法定公积金累计额为公司注册资本的（）以上的，可以不再提取。</h3>
+<p>
+A、10% ，25%<br>
+B、10% ，50%<br>   
+C、25% ，25%<br>  
+D、25% ，50%</p><br>
+<p><a href="###" onclick="openShutManager(this,'box39',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box39" style="display:none">
+答案：B</p><br>
+<h3>
+2、上司公司内部审计制度和审计人员的职责，应当经（）批准后实施，审计负责人向其负责并报告工作。</h3>
+<p>
+A、股东大会<br>
+B、董事会<br>  
+C、监事会<br> 
+D、总经理</p><br>
+<p><a href="###" onclick="openShutManager(this,'box40',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box40" style="display:none">
+答案：B</p><br>
+<h2>
+二、多选题</h2>
+<h3>
+1、以下关于会计师事务所的选聘的说法正确的是（）</h3>
+<p>
+A、上市公司须聘用取得“从事证券相关业务资格”的会计师事务所进行会计报表审计<br>
+B、上市公司须聘用会计师事务所聘期为2年，可以续聘<br>
+C、公司聘用会计师事务所必须由股东大会决定<br> 
+D、会计师事务所的审计费用由董事会决定<p><br>
+<p><a href="###" onclick="openShutManager(this,'box41',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box41" style="display:none">
+答案：AC</p><br>
+<h2>
+三、判断题</h2>
+<h3>
+1、上市公司应实行内部审计制度，配备专职审计人员，对公司财务收支和经济活动进行内部审计监督（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box42',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box42" style="display:none">
+答案：正确</p>
+<h2><a name="ZhiLiZhunZe">
+《上市公司治理准则》（共7题，1道单选、3道多选、3道判断）</a></h2>
+<h2>
+一、单选题</h2>
+<h3>
+1、上市公司董事会可以按照股东大会的有关决议，设立战略、审计、提名、薪酬与考核等专门委员会。其中除（）外，其他专门委员会独立董事应占多数并担任召集人。</h3>
+<p>
+A、审计委员会<br>
+B、提名委员会<br>
+C、薪酬与考核委员会<br> 
+D、战略委员会</p><br>
+<p><a href="###" onclick="openShutManager(this,'box43',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box43" style="display:none">
+答案：D</p>
+<h2>
+二、多选题</h2>
+<h3>
+1、根据《上市公司治理准则》规定，上市公司的以下人员不得在上市公司控股股东单位担任除董事以外的其他职务（）</h3>
+<p>
+A、经理人员<br>
+B、财务负责人<br>
+C、核心技术人员<br> 
+D、营销负责人</p><br>
+<p><a href="###" onclick="openShutManager(this,'box44',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box44" style="display:none">
+答案：ABD</p>
+<h3>
+2、根据《上市公司治理准则》规定，监事会会议应有记录，（）应当在会议记录上签字。</h3>
+<p>
+A、出席会议的监事<br>
+B、记录人<br>
+C、列席监事会的人员<br> 
+D、会议主持人</p><br>
+<p><a href="###" onclick="openShutManager(this,'box45',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box45" style="display:none">
+答案：AB</p>
+<h3>
+3、根据《上市公司治理准则》规定，监事会可要求公司（）出席监事会会议，回答所关注的问题。</h3>
+<p>
+A、董事<br>
+B、经理<br>
+C、其他高级管理人员<br> 
+D、内部及外部审计人员</p>
+<p><a href="###" onclick="openShutManager(this,'box46',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box46" style="display:none">
+答案：ABCD</p>
+<h2>
+三、判断题</h2>
+<h3>
+1、股东既可以亲自到股东大会现场投票，也可以委托代理人代为投票，两者具有同样的法律效力。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box47',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box47" style="display:none">
+答案：正确</p>
+<h3>
+2、控股股东控股比例在50%以上的上市公司，应当采用累积投票制。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box48',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box48" style="display:none">
+答案：错误</p>
+<h3>
+3、独立董事不得在上市公司担任除独立董事外的其他任何职务。（）</h3>
+<p><a href="###" onclick="openShutManager(this,'box49',false,'点击收起答案','点击查看答案')">点击查看答案</a></p><br>
+<p id="box49" style="display:none">
+答案：正确</p>
+
+	
+</div>
+<!-- maincontent end -->
+<div id="footer">
+<p id="p1">
+W3School 简体中文版提供的内容仅用于培训和测试，不保证内容的正确性。通过使用本站内容随之而来的风险与本站无关。
+</p>
+</div>
+</div>
+<!-- wrapper end -->
+</body>
+</html>

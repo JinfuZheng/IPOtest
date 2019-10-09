@@ -1,6 +1,6 @@
 var CONFIG = {
   // your website's title
-  document_title: "IPO法律法规知识及考题",
+  document_title: "IPO知识辅导及考题",
 
   // index page
   index: "README.md",
