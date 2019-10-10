@@ -1,21 +1,26 @@
+# IPOtest
+
+IPOtest is a website. It introduces the laws and regulations related to IPO in China's share market.This website can help readers prepare for the IPO knowledge examination organized by the CSRC when the company submits the listing application materials.The website also provides some questions to help readers master the knowledge points needed to complete the exam. The purpose of this site is to test my learning of web programming. I will not pursue the commercial value of this website. In the process of making the website, I have referred to the following open source projects of GitHub:
+
+flatdoc
+
+ditto
+
+ECMAscript 6 入门
+
 # IPO知识辅导及考题
 
-科创板来了。科创板就是注册制。它的推出，是中国资本市场的重要机制体制创新。为中国科技创新型的企业的发展壮大将提供强大的金融支持。
+IPOtest是一个网站。介绍了中国A股市场IPO相关的法律法规知识。公司在提交上市申请材料时，公司的董监高需要完成证监会组织的IPO知识考试，这个网站可以帮助读者备考用。网站同时给出了部分考题，帮助读者掌握完成考试需要的知识点。
+做这个网站的目的是检验一下自己对web前端的学习成果。本人不会追求这个网站的商业价值。做网站过程中，我参考了GitHub的以下开源项目：
 
-本网站搜集了IPO相关的知识、法律法规、以及证券知识辅导验收测试题目。
+[flatdoc](https://github.com/rstacruz/flatdoc)
 
-网站搜集的文档覆盖范围精准，条目清楚，非常便于阅读。网站内的文档提供全文搜索功能，输入关键词，网站会检索出站内所有文档对应的条目。
+[ditto](https://github.com/chutsu/ditto)
 
-网站同时提供了丰富的题库和真题。谢谢题目可以按内容分类，也可以按实际考试的类型提供试卷，也就是真实模拟考试题目。
-
-做题时可以选择复习方式，也可以选择测试方式。前者会给出答案，方便读者对照；后者会统计分数，方便读书测试自己对知识的掌握。
-
-
+ECMAscript 6 入门(https://github.com/ruanyf/es6tutorial)
 
 ### 版权许可
 
 本书采用“保持署名—非商用”创意共享4.0许可证。
-
-只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。
 
 详细的法律条文请参见[创意共享](http://creativecommons.org/licenses/by-nc/4.0/)网站。
