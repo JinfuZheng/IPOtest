@@ -19,4 +19,8 @@
 ## 考题
 - [公司法50题](quiz/公司法.html)
 - [证券法50题](quiz/证券法.html)
-- [反馈意见](https://github.com/ruanyf/es6tutorial/issues)
+- [上市公司章程指引](quiz/上市公司章程指引.html)
+- [提高上市公司质量的意见](quiz/提高上市公司质量的意见.html)
+- [信息披露](quiz/信息披露.html)
+- [证券司法](quiz/证券司法.html)
+- [对外担保](quiz/对外担保.html)

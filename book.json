@@ -1,9 +1,9 @@
 {
-  "author": "阮一峰",
-  "description": "《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。",
+  "author": "jeff zheng",
+  "description": "IPOtest是一个业余网站。介绍了中国A股市场IPO相关的法律法规知识，同时给出了一部分考题，帮助读者掌握考试需要的知识点。",
   "extension": null,
   "generator": "site",
-  "isbn": "9787121324758",
+  "isbn": null,
   "links": {
 	"sharing": {
 	  "all": null,
@@ -13,7 +13,7 @@
 	  "weibo": null
 	},
 	"sidebar": {
-	  "阮一峰的个人网站": "http://www.ruanyifeng.com/blog/"
+	  "网站": "http://jinfuzheng.github.io"
 	}
   },
   "output": null,

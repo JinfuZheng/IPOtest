@@ -11,11 +11,6 @@
 做题时可以选择复习方式，也可以选择测试方式。前者会给出答案，方便读者对照；后者会统计分数，方便读书测试自己对知识的掌握。
 
 
-- [淘宝](https://s.taobao.com/search?q=ES6%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8+%E7%AC%AC3%E7%89%88)
-- [京东](https://search.jd.com/Search?keyword=ES6%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8%20%E7%AC%AC3%E7%89%88&enc=utf-8&wq=ES6%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8%20%E7%AC%AC3%E7%89%88)
-- [当当](http://product.dangdang.com/25156888.html)
-- [亚马逊](https://www.amazon.cn/ES6%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8-%E9%98%AE%E4%B8%80%E5%B3%B0/dp/B0755547ZZ)
-- [China-pub](http://product.china-pub.com/6504650)
 
 ### 版权许可
 
