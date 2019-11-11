@@ -7,13 +7,6 @@ var ditto = {
     loading_id: "#loading",
     error_id: "#error",
 
-    // display elements
-    sidebar: true,
-    edit_button: true,
-    back_to_top_button: true,
-    save_progress: true, // 保存阅读进度
-    search_bar: true,
-
     // initialize function
     run: initialize
 };
