@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +16,7 @@
   <script src="js/ditto.js"></script>
   <script src="js/prism.js"></script>
 </head>
+
 <body>
   <!-- essential -->
   <div id="sidebar"></div>
@@ -24,14 +26,31 @@
   <div id="edit">edit</div>
   <div id="loading">Loading ...</div>
   <div id="error">Oops! ... File not found!</div>
-  <div id="flip"><div id="pageup">上一个</div><div id="pagedown">下一个</div></div>
+  <div id="flip">
+    <div id="pageup">上一个</div>
+    <div id="pagedown">下一个</div>
+  </div>
   <div class="progress-indicator-2"></div>
 
   <script src="config.js"></script>
   <noscript>
     <p>IPOtest是一个业余网站。介绍了中国A股市场IPO相关的法律法规知识，同时给出了一部分考题，帮助读者掌握考试需要的知识点。</p>
     <p>做这个网站纯粹是技术联系，没有任何盈利的想法。网站参考了github上的开源项目：flatdoc, ditto, 以及http://es6.ruanyifeng.com</p>
-    
+
   </noscript>
+  <script type="text/javascript">
+    (function () {
+      var utterances = document.createElement('script');
+      utterances.type = 'text/javascript';
+      utterances.async = true;
+      utterances.setAttribute('issue-term', 'pathname');
+      utterances.setAttribute('theme', 'github-light');
+      utterances.setAttribute('repo', 'JinfuZheng/IPOtest');
+      utterances.crossOrigin = 'anonymous';
+      utterances.src = 'https://utteranc.es/client.js';
+      document.getElementById('content').appendChild(utterances);
+    })();
+  </script>
 </body>
+
 </html>
