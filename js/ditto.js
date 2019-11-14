@@ -330,15 +330,16 @@ function router() {
     //加载评论模块utterances
     (function () {
       var utterances = document.createElement('script');
+      var issueTerm = (location.hash ? location.hash.replace("#", "") : 'READEME');
       utterances.type = 'text/javascript';
       utterances.async = true;
-      utterances.setAttribute('issue-term', 'pathname');
+      utterances.setAttribute('issue-term', issueTerm);
       utterances.setAttribute('theme', 'github-light');
       utterances.setAttribute('repo', 'JinfuZheng/IPOtest');
       utterances.crossOrigin = 'anonymous';
       utterances.src = 'https://utteranc.es/client.js';
-      // document.getElementById('content').appendChild(utterances);
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(utterances);
+      document.getElementById('content').appendChild(utterances);
+      // (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(utterances);
     })();
 
     // 加载disqus
